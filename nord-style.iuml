@@ -1,0 +1,98 @@
+@startuml
+
+skinparam dpi 400
+
+hide empty methods
+hide empty fields
+
+skinparam defaultMonospacedFontName Menlo
+
+!define __Pattern__  << (P, #B48EAD) >>
+!define __EntSchema__  << (E, #A3BE8C) >>
+!define __Loader__  << (L, #BF616A) >>
+
+skinparam Actor {
+BackgroundColor #8FBCBB
+BorderColor #4C566A
+}
+skinparam Interface {
+BackgroundColor #8FBCBB
+BorderColor #4C566A
+}
+skinparam Participant {
+BackgroundColor #8FBCBB
+BorderColor #4C566A
+}
+skinparam Sequence {
+TitleFontColor #2E3440
+BackgroundColor #8FBCBB
+BorderColor #2E3440
+ArrowColor #2E3440
+FontColor #2E3440
+ArrowFontColor #2E3440
+LifeLineBorderColor #BF616A
+LifeLineBorderThickness 3
+BoxBorderColor #4C566A
+BoxBackgroundColor #D8DEE9
+ArrowThickness 2
+}
+skinparam class {
+BackgroundColor #8FBCBB
+BorderColor #2E3440
+ArrowColor #E5E9F0
+FontColor #2E3440
+ArrowFontColor #E5E9F0
+CircledCharacterFontColor #E5E9F0
+}
+skinparam package {
+BackgroundColor #D8DEE9
+BorderColor #434C5E
+FontColor #D8DEE9
+}
+skinparam usecase {
+BackgroundColor #EBCB8B
+BorderColor #2E3440
+ArrowColor #2E3440
+FontColor #2E3440
+}
+skinparam component {
+BackgroundColor #88C0D0
+BorderColor #2E3440
+FontColor #2E3440
+ArrowFontColor #2E3440
+}
+skinparam cloud {
+BackgroundColor #D08770
+}
+skinparam database {
+BackgroundColor #5E81AC
+BorderColor #2E3440
+FontColor #2E3440
+}
+skinparam activity {
+BackgroundColor #8FBCBB
+BorderColor #2E3440
+ArrowColor #2E3440
+FontColor #2E3440
+DiamondBackgroundColor #88C0D0
+DiamondFontColor #2E3440
+DiamondBorderColor #2E3440
+BorderThickness 2
+EndColor #2E3440
+}
+skinparam ArrowFontColor #2E3440
+skinparam partition {
+BackgroundColor #D8DEE9
+BorderColor #2E3440
+FontColor #2E3440
+}
+skinparam note {
+BackgroundColor #2E3440
+BorderColor #D8DEE9
+FontColor #D8DEE9
+FontName Georgia
+FontSize 10
+}
+skinparam backgroundColor #ECEFF4
+
+@enduml
