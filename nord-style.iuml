@@ -1,6 +1,5 @@
 @startuml
 
-skinparam dpi 400
 
 hide empty methods
 hide empty fields
@@ -48,6 +47,14 @@ skinparam package {
 BackgroundColor #D8DEE9
 BorderColor #434C5E
 FontColor #D8DEE9
+}
+skinparam object {
+BackgroundColor #8FBCBB
+BorderColor #2E3440
+ArrowColor #E5E9F0
+FontColor #2E3440
+ArrowFontColor #E5E9F0
+CircledCharacterFontColor #E5E9F0
 }
 skinparam usecase {
 BackgroundColor #EBCB8B
