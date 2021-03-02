@@ -46,7 +46,7 @@ CircledCharacterFontColor #E5E9F0
 skinparam package {
 BackgroundColor #D8DEE9
 BorderColor #434C5E
-FontColor #D8DEE9
+FontColor #2E3440
 }
 skinparam object {
 BackgroundColor #8FBCBB
