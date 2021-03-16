@@ -14,6 +14,8 @@ skinparam defaultMonospacedFontName Menlo
 !define ent_pattern(x) class x << (P, #B48EAD) >>
 !define ent_loader(x) class x << (L, #BF616A) >>
 
+!define database_table(x) class x << (T,#FFAAAA) >>
+
 skinparam Actor {
 BackgroundColor #8FBCBB
 BorderColor #4C566A
