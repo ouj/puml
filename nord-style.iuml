@@ -10,6 +10,10 @@ skinparam defaultMonospacedFontName Menlo
 !define __EntSchema__  << (E, #A3BE8C) >>
 !define __Loader__  << (L, #BF616A) >>
 
+!define ent_schema(x) class x << (E, #A3BE8C) >>
+!define ent_pattern(x) class x << (P, #B48EAD) >>
+!define ent_loader(x) class x << (L, #BF616A) >>
+
 skinparam Actor {
 BackgroundColor #8FBCBB
 BorderColor #4C566A
