@@ -1,0 +1,110 @@
+@startuml
+
+hide empty methods
+hide empty fields
+
+skinparam defaultMonospacedFontName Fira Code
+
+!define __Pattern__  << (P, #B48EAD) >>
+!define __EntSchema__  << (E, #A3BE8C) >>
+!define __Loader__  << (L, #ed785e) >>
+
+!define ent_schema(x) class x << (E, #A3BE8C) >>
+!define ent_pattern(x) class x << (P, #B48EAD) >>
+!define ent_loader(x) class x << (L, #ed785e) >>
+
+!define database_table(x) class x << (T,#FFAAAA) >>
+
+skinparam Actor {
+BackgroundColor #c7c6f9
+BorderColor #4f49f3
+}
+skinparam Interface {
+BackgroundColor #c7c6f9
+BorderColor #4f49f3
+}
+skinparam Participant {
+BackgroundColor #c7c6f9
+BorderColor #4f49f3
+}
+skinparam Sequence {
+TitleFontColor #393856
+BackgroundColor #c7c6f9
+BorderColor #393856
+ArrowColor #393856
+FontColor #393856
+ArrowFontColor #393856
+LifeLineBorderColor #ed785e
+LifeLineBorderThickness 3
+BoxBorderColor #4f49f3
+BoxBackgroundColor #D8DEE9
+ArrowThickness 2
+}
+skinparam class {
+BackgroundColor #c7c6f9
+BorderColor #393856
+ArrowColor #314444
+FontColor #393856
+ArrowFontColor #314444
+CircledCharacterFontColor #314444
+}
+skinparam package {
+BackgroundColor #D8DEE9
+BorderColor #434C5E
+FontColor #393856
+}
+skinparam object {
+BackgroundColor #c7c6f9
+BorderColor #393856
+ArrowColor #314444
+FontColor #393856
+ArrowFontColor #314444
+CircledCharacterFontColor #314444
+}
+skinparam usecase {
+BackgroundColor #EBCB8B
+BorderColor #393856
+ArrowColor #393856
+FontColor #393856
+}
+skinparam component {
+BackgroundColor #88C0D0
+BorderColor #393856
+FontColor #393856
+ArrowFontColor #393856
+}
+skinparam cloud {
+BackgroundColor #D08770
+}
+skinparam database {
+BackgroundColor #5E81AC
+BorderColor #393856
+FontColor #393856
+}
+skinparam activity {
+BackgroundColor #c7c6f9
+BorderColor #393856
+ArrowColor #393856
+FontColor #393856
+DiamondBackgroundColor #88C0D0
+DiamondFontColor #393856
+DiamondBorderColor #393856
+BorderThickness 2
+EndColor #393856
+}
+skinparam ArrowFontColor #393856
+skinparam partition {
+BackgroundColor #D8DEE9
+BorderColor #393856
+FontColor #393856
+}
+skinparam note {
+BackgroundColor #393856
+BorderColor #D8DEE9
+FontColor #D8DEE9
+FontName Roboto
+FontSize 10
+}
+skinparam backgroundColor #f8f6f0
+
+@enduml
