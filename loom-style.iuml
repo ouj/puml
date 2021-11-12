@@ -38,6 +38,7 @@ LifeLineBorderColor #ed785e
 LifeLineBorderThickness 3
 BoxBorderColor #4f49f3
 BoxBackgroundColor #D8DEE9
+GroupBodyBackgroundColor #FFFFFF90
 ArrowThickness 2
 }
 skinparam class {
