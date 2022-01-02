@@ -3,8 +3,6 @@
 hide empty methods
 hide empty fields
 
-skinparam defaultMonospacedFontName Fira Code
-
 !define __Pattern__  << (P, #B48EAD) >>
 !define __EntSchema__  << (E, #A3BE8C) >>
 !define __Loader__  << (L, #ed785e) >>
