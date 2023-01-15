@@ -101,8 +101,16 @@ skinparam note {
 BackgroundColor #393856
 BorderColor #D8DEE9
 FontColor #D8DEE9
-FontName Roboto
+FontName Helvetica
 FontSize 10
+}
+skinparam state {
+TitleFontColor #393856
+BackgroundColor #c7c6f9
+BorderColor #393856
+ArrowColor #393856
+FontColor #393856
+ArrowFontColor #393856
 }
 skinparam backgroundColor #f8f6f0
 
